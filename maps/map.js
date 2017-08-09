@@ -4,6 +4,7 @@ function myMap() {
       zoom: 8,
   }
   var map = new google.maps.Map(document.getElementById("seattle"), mapProp);
+  
 
   var mapProp = {
       center: new google.maps.LatLng(38.929772,121.4706717),
